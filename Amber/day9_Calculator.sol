@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 // 导入 ScientificCalculator 合约
-import "./ScientificCalculator.sol";
+import "./day9_ScientificCalculator.sol";
 
 // 主计算器合约
 contract Calculator{
