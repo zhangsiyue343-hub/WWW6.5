@@ -79,7 +79,7 @@ contract day9_Calculator {
 
 
     // 使用 low-level call 调用 squareRoot
-    function calculateSquareRoot(uint256 number) public view returns(uint256){
+    function calculateSquareRoot(uint256 number) public returns(uint256){
 
         // 编码函数调用
         bytes memory data = abi.encodeWithSignature("squareRoot(uint256)", number);
